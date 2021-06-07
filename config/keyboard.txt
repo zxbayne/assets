@@ -1,0 +1,5 @@
+# disable laptop's keyboard
+sc config i8042prt start=disabled
+
+# enable laptop's keyboard
+sc config i8042prt start=demand
